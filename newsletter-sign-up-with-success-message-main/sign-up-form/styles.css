@@ -1,0 +1,23 @@
+@import url(https://fonts.google.com/specimen/Roboto);
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+body{
+  background-color: hsl(234, 29%, 20%)
+}
+.container{
+  position: absolute;
+  top: 20%;
+  left: 15%;
+  background: #fff;
+  width: 70%;
+  padding: 2rem;
+  border-radius: 25px;
+}
+.heading{
+  font: 700 1.3rem/1.9 'Roboto' ;
+  color:  hsl(231, 7%, 60%);
+}
