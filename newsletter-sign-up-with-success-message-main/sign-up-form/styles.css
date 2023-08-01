@@ -173,20 +173,19 @@ span {
 
 /* mobile responsive */
 @media screen and (max-width: 900px){
+
   body{
     background-color: #fff;
+    margin: 0;
+    padding: 0;
+
   }
   .container{
-     /* position: absolute; */
     top: 0;
     left:0;
     display: flex;
     flex-direction: column-reverse;
     background: #fff;
-    /* width: 60%; */
-    /* height: 70%; */
-     /* padding: 2rem; */
-    
     border-radius: 25px; 
     align-items: center;
     justify-content: center;
@@ -206,7 +205,7 @@ span {
   
     
   }
-  p{
+  .form p{
     font-family: 'Roboto-bold';
     font-weight: 400;
     font-size: 1rem;
@@ -233,14 +232,11 @@ span {
   }
   .checkbox2{
     display: flex;
-    /* margin-top: -15px; */
   }
   .checkbox3{
     display: flex;
-    /* margin-top: -15px; */
   }
   .form-mail{
-    /* margin-top: 20px; */
     display: flex;
     flex-direction: column;
   }
@@ -251,7 +247,6 @@ span {
     
   }
   .input{
-    /* margin-top: 8px; */
     padding: 20px;
     border-radius: 10px;
     width: 100%;
@@ -268,8 +263,6 @@ span {
    
   }
   .image{
-   
-    /* height: auto; */
     margin-left: auto;
     margin-right: auto;
   }
@@ -278,11 +271,13 @@ span {
 
   /* Success message starts */
 .body{ 
-  width: 100%;
+  justify-content: center;
+  right: 0;
+  left: 0;
 }
 .success-image{
-  width: 17%;
-  margin-top: -50px;
+  width: 20%;
+  margin-top: -80px;
   margin-bottom: 30px;
 }
 .head-text{
@@ -298,13 +293,14 @@ span {
 }
 
 .btn2{
-  /* margin: 10px 0; */
+  
   position: absolute;
   padding: 20px;
-  width: 90%;
   font-size: 1rem;
+  border-radius: 6px;
   bottom: 0;
-  
+  left: 0;
+
 }
 
 
