@@ -19,10 +19,12 @@ body{
 }
 .container{
   position: absolute;
-  top: 80px;
-  left: 300px;
+  top: 50%;
+  left: 50%;
   display: flex;
   background: #fff;
+  margin-left: -250px;
+  margin-top: -200px;
   /* width: 50%; */
   height: 70%;
   padding: 2rem;
