@@ -1,4 +1,6 @@
-  // Get the button element by its ID
+//change the page using javascript
+
+// Get the button element by its ID
   const button = document.getElementById('myButton');
 
   // Add a click event listener to the button
