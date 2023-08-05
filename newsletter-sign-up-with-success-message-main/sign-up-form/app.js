@@ -8,3 +8,11 @@
       // Replace 'desired-page.html' with the URL of the page you want to link to
       window.location.href = 'success.html';
   });
+
+  function validate() {
+    const getEmail = document.getElementById('Email');
+    if(!getEmail){
+      
+    }
+      
+  }
