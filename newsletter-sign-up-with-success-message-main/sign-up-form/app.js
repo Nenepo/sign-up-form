@@ -48,12 +48,12 @@ button.addEventListener('click', function() {
     validationMessageElement.textContent = 'Valid email required';
   }
 });
-
+const getEmail = document.getElementById('email');
 // Add a keydown event listener to the email input
-emailInput.addEventListener('keydown', function(event) {
+getEmail.addEventListener('keydown', function(event) {
   // Check if the key pressed is the Enter key (keyCode 13)
   if (event.keyCode === 13) {
-    event.preventDefault(); // Prevent the default form submission on pressing Enter
+    // event.preventDefault(); // Prevent the default form submission on pressing Enter
     button.click(); // Trigger the click event of the submit button
   }
 });
