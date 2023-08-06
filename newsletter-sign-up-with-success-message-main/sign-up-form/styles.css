@@ -46,12 +46,9 @@ body{
 
   
 }
-.form p{
+.text1{
   font-family:  'Roboto-bold' ;
-  font-weight: 400;
   font-size: 0.7rem;
-  color:  hsl(240, 1%, 21%);
-  margin-bottom: 12px;
 }
 .icon{
   width: 4%;
@@ -62,6 +59,9 @@ body{
 .checkbox p{
   margin-top: 15px;
   margin-left: 10px;
+  font-family:  'Roboto-bold' ;
+  font-size: 0.7rem;
+  margin-bottom: 12px;
 }
 
 .checkbox1{
@@ -83,9 +83,19 @@ body{
   flex-direction: column;
 }
 .mail{
-  font-size: 0.6rem;
-  font-family: 'Roboto-bold';
+ 
+  font-family:  'Roboto-bold' ;
+  font-weight: 400;
+  font-size: 0.7rem;
+  color:  hsl(240, 1%, 21%);
+ 
   
+}
+p .text-color{
+  font-family:  'Roboto-bold' ;
+  font-weight: 400;
+  font-size: 0.7rem;
+  color:  hsl(0, 87%, 64%);
 }
 .input{
   margin-top: 8px;
@@ -99,6 +109,19 @@ body{
 
   cursor: auto;
 }
+/* javascript css for input */
+.invalid{
+  background: rgb(233, 96, 96);
+  border:   1px solid rgb(240, 75, 75);
+}
+.before-input{
+          
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
 .btn{
   margin-top: 20px;
   padding: 10px;
@@ -153,7 +176,7 @@ body{
   margin-bottom: 12px;
   line-height: 1.5;
 }
-span {
+span #personalEmail{
   font-family: 'Roboto-bold';
 }
 .btn2{
